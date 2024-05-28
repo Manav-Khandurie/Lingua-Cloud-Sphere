@@ -1,0 +1,41 @@
+cloud-architecture-diagram
+
+// Title
+title Lingua-Cloud-Sphere Architecture
+
+// Frontend
+Frontend [color: blue] {
+  React App [icon: react]
+  SSO with AWS Cognito [icon: aws-cognito] {
+    Google Auth [icon: google]
+    GitHub Auth [icon: github]
+  }
+}
+
+// Backend
+Backend [color: green] {
+  API Gateway [icon: aws-api-gateway] // entry point
+
+  NLP Services {
+    Text Analysis Service [icon: aws-comprehend]
+    Sentiment Analysis Service [icon: aws-comprehend]
+    Language Translation Service [icon: aws-translate]
+  }
+
+  Lambda Functions [icon: aws-lambda]
+  S3 Bucket [icon: aws-s3]
+}
+
+// Connections
+React App > SSO with AWS Cognito
+SSO with AWS Cognito > Google Auth
+SSO with AWS Cognito > GitHub Auth
+React App > API Gateway
+API Gateway > Text Analysis Service
+API Gateway > Sentiment Analysis Service
+API Gateway > Language Translation Service
+Text Analysis Service > Lambda Functions
+Sentiment Analysis Service > Lambda Functions
+Language Translation Service > Lambda Functions
+Lambda Functions > S3 Bucket
+
