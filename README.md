@@ -7,7 +7,7 @@ Edit made from  Eraser
 
 
 
-![Figure 2](/.eraser/dt7Phvkj2Gc2r9r2b6AR___6Ww8hrtkmQbCnRHKqyf4D7Vv51M2___---figure---d8b_g2HR3B3f4ZK5xJEvj---figure---5SSI_oLEb1BtNHVdkeZffA.png "Figure 2")
+![Figure 2](/.eraser/dt7Phvkj2Gc2r9r2b6AR___6Ww8hrtkmQbCnRHKqyf4D7Vv51M2___---figure---JO5XqKeEiQhy6wBlbqG5N---figure---5SSI_oLEb1BtNHVdkeZffA.png "Figure 2")
 
 
 
