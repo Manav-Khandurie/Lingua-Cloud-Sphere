@@ -5,7 +5,7 @@ Lingua-Cloud-Sphere is a cloud-based NLP solutions that provide scalable and eff
 
 Edit made from  Eraser
 
-![Figure 1](/.eraser/dt7Phvkj2Gc2r9r2b6AR___6Ww8hrtkmQbCnRHKqyf4D7Vv51M2___---figure---P94t6wNexWhcCtWXFV9tp---figure---SQpLMeEqOqpei19mKguopA.png "Figure 1")
+![Figure 1](/.eraser/dt7Phvkj2Gc2r9r2b6AR___6Ww8hrtkmQbCnRHKqyf4D7Vv51M2___---figure---TfjTqus8XqtcM4SStVH2o---figure---SQpLMeEqOqpei19mKguopA.png "Figure 1")
 
 
 
