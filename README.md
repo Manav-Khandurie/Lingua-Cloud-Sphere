@@ -5,47 +5,15 @@ Lingua-Cloud-Sphere is a cloud-based NLP solutions that provide scalable and eff
 
 Edit made from  Eraser
 
+![Figure 1](/.eraser/dt7Phvkj2Gc2r9r2b6AR___6Ww8hrtkmQbCnRHKqyf4D7Vv51M2___---figure---P94t6wNexWhcCtWXFV9tp---figure---SQpLMeEqOqpei19mKguopA.png "Figure 1")
 
-
-![Figure 2](/.eraser/dt7Phvkj2Gc2r9r2b6AR___6Ww8hrtkmQbCnRHKqyf4D7Vv51M2___---figure---JO5XqKeEiQhy6wBlbqG5N---figure---5SSI_oLEb1BtNHVdkeZffA.png "Figure 2")
-
-
-
-
-
-```
-// Define groups and nodes
-API gateway [icon: aws-api-gateway]
-Lambda [icon: aws-lambda]
-S3 [icon: aws-simple-storage-service]
-VPC Subnet [icon: aws-vpc]{
-  Main Server {
-    Server [icon: aws-ec2]
-    Data [icon: aws-rds]
-  }
-  Queue [icon: aws-auto-scaling]
-  Compute Nodes [color: red] {
-    Worker1 [icon: aws-ec2]
-    Worker2 [icon: aws-ec2]
-    Worker3 [icon: aws-ec2]
-  }
-}
-Analytics [icon: aws-redshift]
-
-// Define connections
-API gateway > Lambda > Server > Data
-Server > Queue > Worker1, Worker2, Worker3
-S3 < Data
-Compute Nodes > Analytics
-```
 
 
 
 <!-- eraser-additional-content -->
 ## Diagrams
 <!-- eraser-additional-files -->
-<a href="/README-cloud-architecture-1.eraserdiagram" data-element-id="tKqFV3utYDqLRE1FnGpD_"><img src="/.eraser/dt7Phvkj2Gc2r9r2b6AR___6Ww8hrtkmQbCnRHKqyf4D7Vv51M2___---diagram----097217e93dc3be010f7686558aa2c887.png" alt="" data-element-id="tKqFV3utYDqLRE1FnGpD_" /></a>
-<a href="/README-Lingua-Cloud-Sphere Architecture-2.eraserdiagram" data-element-id="xpvDqQ0w4LZ5Y9b_YcH_r"><img src="/.eraser/dt7Phvkj2Gc2r9r2b6AR___6Ww8hrtkmQbCnRHKqyf4D7Vv51M2___---diagram----7802eb296c0c2530eb03599fe8fa9880-Lingua-Cloud-Sphere-Architecture.png" alt="" data-element-id="xpvDqQ0w4LZ5Y9b_YcH_r" /></a>
+<a href="/README-Lingua-Cloud-Sphere Architecture-1.eraserdiagram" data-element-id="xpvDqQ0w4LZ5Y9b_YcH_r"><img src="/.eraser/dt7Phvkj2Gc2r9r2b6AR___6Ww8hrtkmQbCnRHKqyf4D7Vv51M2___---diagram----cd59746320baa9d636ab092e1631334d-Lingua-Cloud-Sphere-Architecture.png" alt="" data-element-id="xpvDqQ0w4LZ5Y9b_YcH_r" /></a>
 <!-- end-eraser-additional-files -->
 <!-- end-eraser-additional-content -->
 <!--- Eraser file: https://app.eraser.io/workspace/dt7Phvkj2Gc2r9r2b6AR --->
