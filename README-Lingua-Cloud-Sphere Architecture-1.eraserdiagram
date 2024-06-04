@@ -16,7 +16,7 @@ Frontend [color: blue] {
 Backend [color: green] {
   Cognito [icon: aws-cognito]
   API Gateway [icon: aws-api-gateway] // entry point
-
+  Controller [icon: aws-lambda]
   NLP Services {
     Text Analysis Service [icon: aws-comprehend]
     Sentiment Analysis Service [icon: aws-comprehend]
@@ -31,10 +31,11 @@ Backend [color: green] {
 React App > GitHub Auth
 React App > Google Auth
 SSO with AWS Cognito > API Gateway
+API Gateway <> Controller
 API Gateway <> Cognito
-API Gateway > Text Analysis Service
-API Gateway > Sentiment Analysis Service
-API Gateway > Language Translation Service
+Controller > Text Analysis Service
+Controller > Sentiment Analysis Service
+Controller > Language Translation Service
 Text Analysis Service > Lambda Functions
 Sentiment Analysis Service > Lambda Functions
 Language Translation Service > Lambda Functions
