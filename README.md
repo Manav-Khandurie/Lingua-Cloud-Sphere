@@ -1,20 +1,22 @@
 <p><a target="_blank" href="https://app.eraser.io/workspace/dt7Phvkj2Gc2r9r2b6AR" id="edit-in-eraser-github-link"><img alt="Edit in Eraser" src="https://firebasestorage.googleapis.com/v0/b/second-petal-295822.appspot.com/o/images%2Fgithub%2FOpen%20in%20Eraser.svg?alt=media&amp;token=968381c8-a7e7-472a-8ed6-4a6626da5501"></a></p>
 
-# Lingua-Cloud-Sphere
+# **Lingua-Cloud-Sphere**
 Lingua-Cloud-Sphere is a cloud-based NLP solutions that provide scalable and efficient text analysis, sentiment analysis, and language translation services for various applications.
 
 Edit made from  Eraser
 
+![Figure 2](/.eraser/dt7Phvkj2Gc2r9r2b6AR___6Ww8hrtkmQbCnRHKqyf4D7Vv51M2___---figure---aPNjvIM-F09jxzcCswkab---figure---YGIG9NBv9ZLgBfPOK_FpJA.png "Figure 2")
 
+---
 
-![Figure 2](/.eraser/dt7Phvkj2Gc2r9r2b6AR___6Ww8hrtkmQbCnRHKqyf4D7Vv51M2___---figure---nbhZrV3c5DiaXmTDpfm2m---figure---YGIG9NBv9ZLgBfPOK_FpJA.png "Figure 2")
-
+# **Synopsis**
 
 
 [﻿Synopsis-LinguaCloudSphere](https://app.eraser.io/workspace/KdmznEp53HlvdGcB2N2O)  [ Synopsis ]
 
+---
 
-
+# **Current Architecture**
 [﻿View on Eraser](https://app.eraser.io/workspace/dt7Phvkj2Gc2r9r2b6AR?elements=H036hiNq0ZwuHjHuQVoNCw) 
 
 
