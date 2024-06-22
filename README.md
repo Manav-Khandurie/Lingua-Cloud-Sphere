@@ -7,11 +7,11 @@ Edit made from  Eraser
 
 
 
-![Figure 2](/.eraser/dt7Phvkj2Gc2r9r2b6AR___6Ww8hrtkmQbCnRHKqyf4D7Vv51M2___---figure---0H9SYGBqgbtev3tEuEkoQ---figure---YGIG9NBv9ZLgBfPOK_FpJA.png "Figure 2")
+![Figure 2](/.eraser/dt7Phvkj2Gc2r9r2b6AR___6Ww8hrtkmQbCnRHKqyf4D7Vv51M2___---figure---nbhZrV3c5DiaXmTDpfm2m---figure---YGIG9NBv9ZLgBfPOK_FpJA.png "Figure 2")
 
 
 
-[﻿LinguaCloudSphere-System_Architecture](https://app.eraser.io/workspace/zw8KCsN1L9wrd8OYLe8W) 
+[﻿Synopsis-LinguaCloudSphere](https://app.eraser.io/workspace/KdmznEp53HlvdGcB2N2O)  [ Synopsis ]
 
 
 
