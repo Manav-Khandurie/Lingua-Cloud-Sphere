@@ -4,7 +4,7 @@ cloud-architecture-diagram
 title Lingua-Cloud-Sphere Architecture
 
 // Frontend
-Frontend [color: blue] {
+Frontend [color: pink] {
   Frontend S3 Bucket [icon: aws-s3] // Hosting React App
   React App [icon: react] // Deployed on S3
   SSO with AWS Cognito [icon: aws-cognito] {
