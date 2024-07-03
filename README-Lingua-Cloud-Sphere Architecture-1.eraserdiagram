@@ -2,9 +2,10 @@ cloud-architecture-diagram
 
 // Title
 title Lingua-Cloud-Sphere Architecture
-
+styleMode watercolor
+direction right
 // Frontend
-Frontend [color: pink] {
+Frontend [color: blue] {
   Frontend S3 Bucket [icon: aws-s3] // Hosting React App
   React App [icon: react] // Deployed on S3
   SSO with AWS Cognito [icon: aws-cognito] {
@@ -18,7 +19,14 @@ Backend [color: green] {
   Cognito [icon: aws-cognito]
   API Gateway [icon: aws-api-gateway] // entry point
   Controller Lambda [icon: aws-lambda]
-  
+  Upload Bucket [color : Yellow] {
+    OCR\nUploads [icon: folder]
+    Texttract\nUploads [icon: folder]
+    TTS\nOutput [icon: folder]
+    Rekognition\nUploads [icon: folder]
+    SST\nUploads [icon: folder]
+    S3 Bucket for Uploads [icon: aws-s3]
+  }
   NLP Backend [color: red] {
     Comprehend Lambda [icon: aws-lambda] // AWS Comprehend
     Textract Lambda [icon: aws-lambda] // AWS Textract
@@ -36,7 +44,7 @@ Backend [color: green] {
     AWS Textract [icon: aws-ekognition]
   }
 
-  S3 Bucket for Results [icon: aws-s3] // Singleton bucket for results
+   // Singleton bucket for results
 }
 
 Users [icon: users]
@@ -48,6 +56,7 @@ React App > Google Auth
 SSO with AWS Cognito > API Gateway
 API Gateway <> Cognito
 API Gateway > Controller Lambda
+API Gateway <> Upload Bucket : UPLOAD
 
 // Controller Lambda to NLP Backend
 Controller Lambda > Comprehend Lambda
@@ -59,7 +68,7 @@ Controller Lambda > Translate Lambda
 Controller Lambda > Custom NLP Lambda
 
 // NLP Backend to AWS Services
-Comprehend Lambda > AWS Comprehend [icon: aws-comprehend]
+Comprehend Lambda > AWS Comprehend [icon: aws-comprehend ]
 Textract Lambda > AWS Textract [icon: aws-textract]
 Polly Lambda > AWS Polly [icon: aws-polly]
 Recognition Lambda > AWS Recognition [icon: aws-recognition]
@@ -68,11 +77,16 @@ Translate Lambda > AWS Translate [icon: aws-translate]
 Custom NLP Lambda > Custom NLP Solutions
 
 // All Lambdas storing results in S3
-Comprehend Lambda > S3 Bucket for Results
-Textract Lambda > S3 Bucket for Results
-Polly Lambda > S3 Bucket for Results
-Recognition Lambda > S3 Bucket for Results
-Transcribe Lambda > S3 Bucket for Results
-Translate Lambda > S3 Bucket for Results
-Custom NLP Lambda > S3 Bucket for Results
+Comprehend Lambda > OCR\nUploads
+Textract Lambda > Texttract\nUploads
+Polly Lambda > TTS\nOutput
+Recognition Lambda > Rekognition\nUploads
+Custom NLP Lambda > S3 Bucket for Uploads
+Transcribe Lambda > SST\nUploads
 
+// ALl folders connected
+SST\nUploads <> S3 Bucket for Uploads
+Texttract\nUploads <> S3 Bucket for Uploads
+TTS\nOutput <> S3 Bucket for Uploads
+OCR\nUploads <> S3 Bucket for Uploads
+Rekognition\nUploads <> S3 Bucket for Uploads

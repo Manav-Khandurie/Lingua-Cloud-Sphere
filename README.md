@@ -9,7 +9,7 @@ Edit made from  Eraser
 
 [﻿Figure 4](https://app.eraser.io/workspace/dt7Phvkj2Gc2r9r2b6AR?elements=pK0lg3CMnVNDEIdRLyOysg) 
 
-![Figure 4](/.eraser/dt7Phvkj2Gc2r9r2b6AR___6Ww8hrtkmQbCnRHKqyf4D7Vv51M2___---figure---8manJeERoicOK70K1tzh6---figure---pK0lg3CMnVNDEIdRLyOysg.png "Figure 4")
+![Figure 4](/.eraser/dt7Phvkj2Gc2r9r2b6AR___6Ww8hrtkmQbCnRHKqyf4D7Vv51M2___---figure---DQbenrrnzUNXYZwcZdmap---figure---pK0lg3CMnVNDEIdRLyOysg.png "Figure 4")
 
 ---
 
@@ -27,7 +27,7 @@ Edit made from  Eraser
 <!-- eraser-additional-content -->
 ## Diagrams
 <!-- eraser-additional-files -->
-<a href="/README-Lingua-Cloud-Sphere Architecture-1.eraserdiagram" data-element-id="jLduvEMhZleiA2wYJZDNt"><img src="/.eraser/dt7Phvkj2Gc2r9r2b6AR___6Ww8hrtkmQbCnRHKqyf4D7Vv51M2___---diagram----bfc724077b89ca25a5d5bd1336e5e9f3-Lingua-Cloud-Sphere-Architecture.png" alt="" data-element-id="jLduvEMhZleiA2wYJZDNt" /></a>
+<a href="/README-Lingua-Cloud-Sphere Architecture-1.eraserdiagram" data-element-id="jLduvEMhZleiA2wYJZDNt"><img src="/.eraser/dt7Phvkj2Gc2r9r2b6AR___6Ww8hrtkmQbCnRHKqyf4D7Vv51M2___---diagram----4a051e1259b8a31d0a12656c05bba4dc-Lingua-Cloud-Sphere-Architecture.png" alt="" data-element-id="jLduvEMhZleiA2wYJZDNt" /></a>
 <!-- end-eraser-additional-files -->
 <!-- end-eraser-additional-content -->
 <!--- Eraser file: https://app.eraser.io/workspace/dt7Phvkj2Gc2r9r2b6AR --->
