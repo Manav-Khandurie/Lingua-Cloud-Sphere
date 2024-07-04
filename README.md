@@ -9,7 +9,7 @@ Edit made from  Eraser
 
 [﻿Figure 4](https://app.eraser.io/workspace/dt7Phvkj2Gc2r9r2b6AR?elements=pK0lg3CMnVNDEIdRLyOysg) 
 
-![Figure 4](/.eraser/dt7Phvkj2Gc2r9r2b6AR___6Ww8hrtkmQbCnRHKqyf4D7Vv51M2___---figure---ecH6h_YWShxBgyUJRA5Bj---figure---pK0lg3CMnVNDEIdRLyOysg.png "Figure 4")
+![Figure 4](/.eraser/dt7Phvkj2Gc2r9r2b6AR___6Ww8hrtkmQbCnRHKqyf4D7Vv51M2___---figure---rCBhJnitscoSa3cQeQnIt---figure---pK0lg3CMnVNDEIdRLyOysg.png "Figure 4")
 
 ---
 
