@@ -3,20 +3,18 @@
 # **Lingua-Cloud-Sphere**
 Lingua-Cloud-Sphere is a cloud-based NLP solutions that provide scalable and efficient text analysis, sentiment analysis, and language translation services for various applications.
 
-Edit made from  Eraser
-
-
+Edit made from Eraser
 
 [﻿Figure 4](https://app.eraser.io/workspace/dt7Phvkj2Gc2r9r2b6AR?elements=pK0lg3CMnVNDEIdRLyOysg) 
 
-![Figure 4](/.eraser/dt7Phvkj2Gc2r9r2b6AR___6Ww8hrtkmQbCnRHKqyf4D7Vv51M2___---figure---rCBhJnitscoSa3cQeQnIt---figure---pK0lg3CMnVNDEIdRLyOysg.png "Figure 4")
+![Figure 4](/.eraser/dt7Phvkj2Gc2r9r2b6AR___6Ww8hrtkmQbCnRHKqyf4D7Vv51M2___---figure---BohoHoHInvcMdInTx35Xm---figure---pK0lg3CMnVNDEIdRLyOysg.png "Figure 4")
+
+
 
 ---
 
 # **Synopsis**
-
-
-[﻿Synopsis-LinguaCloudSphere](https://app.eraser.io/workspace/KdmznEp53HlvdGcB2N2O)  [ Synopsis ]
+[﻿Synopsis-LinguaCloudSphere](https://app.eraser.io/workspace/KdmznEp53HlvdGcB2N2O) [ Synopsis ]
 
 ---
 
