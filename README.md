@@ -5,7 +5,7 @@ Lingua-Cloud-Sphere is a cloud-based NLP solutions that provide scalable and eff
 
 Edit made from Eraser
 
-![Figure 7](/.eraser/dt7Phvkj2Gc2r9r2b6AR___6Ww8hrtkmQbCnRHKqyf4D7Vv51M2___---figure---pB_mn8TCw7-Lv4mY_bHwj---figure---7K72H1ytV86AAVKNNIiunA.png "Figure 7")
+![Figure 7](/.eraser/dt7Phvkj2Gc2r9r2b6AR___6Ww8hrtkmQbCnRHKqyf4D7Vv51M2___---figure---HjHJhhliqNIpdhOVk1PuE---figure---7K72H1ytV86AAVKNNIiunA.png "Figure 7")
 
 
 
@@ -28,14 +28,14 @@ Edit made from Eraser
 # **Sequence Diagram**
 [﻿Figure 5](https://app.eraser.io/workspace/dt7Phvkj2Gc2r9r2b6AR?elements=ArDsPyXB5aF308TZS7MgEQ) 
 
-![Figure 5](/.eraser/dt7Phvkj2Gc2r9r2b6AR___6Ww8hrtkmQbCnRHKqyf4D7Vv51M2___---figure---dBPB8J1gMLKiiT2BkKAGl---figure---ArDsPyXB5aF308TZS7MgEQ.png "Figure 5")
+![Figure 5](/.eraser/dt7Phvkj2Gc2r9r2b6AR___6Ww8hrtkmQbCnRHKqyf4D7Vv51M2___---figure---QGzMoIX0ndSd2IAVsu11v---figure---ArDsPyXB5aF308TZS7MgEQ.png "Figure 5")
 
 ---
 
 # **Flow Diagram**
 [﻿Figure 6](https://app.eraser.io/workspace/dt7Phvkj2Gc2r9r2b6AR?elements=ArDsPyXB5aF308TZS7MgEQ) 
 
-![Figure 6](/.eraser/dt7Phvkj2Gc2r9r2b6AR___6Ww8hrtkmQbCnRHKqyf4D7Vv51M2___---figure---1FeHFZax48KjB1PL7XGyK---figure---N35TRK9SnrJ9hlmmZhol_w.png "Figure 6")
+![Figure 6](/.eraser/dt7Phvkj2Gc2r9r2b6AR___6Ww8hrtkmQbCnRHKqyf4D7Vv51M2___---figure---YdKWKf6wAN3oV3ekZg3OT---figure---N35TRK9SnrJ9hlmmZhol_w.png "Figure 6")
 
 ---
 
@@ -47,7 +47,7 @@ Edit made from Eraser
 
 
 
-![Figure 8](/.eraser/dt7Phvkj2Gc2r9r2b6AR___6Ww8hrtkmQbCnRHKqyf4D7Vv51M2___---figure---hviH4NZ9MUZ_TEriwR8D5---figure---_7eYVrTHHPncltD6UFm1aw.png "Figure 8")
+![Figure 8](undefined "Figure 8")
 
 
 
