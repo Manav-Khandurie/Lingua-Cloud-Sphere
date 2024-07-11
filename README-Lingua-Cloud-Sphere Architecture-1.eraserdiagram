@@ -5,6 +5,7 @@ title Lingua-Cloud-Sphere Architecture
 // styleMode watercolor
 direction right
 
+
 //Development
 Development [color : purple] {
     Trello [icon: trello]
