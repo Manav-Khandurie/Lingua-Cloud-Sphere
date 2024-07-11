@@ -8,9 +8,12 @@ direction right
 
 //Development
 Development [color : purple] {
+    Eraser [icon: eraser-io]
+    Whatapp [icon: whatsapp]
     Trello [icon: trello]
     Devs    [icon: user]
     Figma [icon: figma]
+    Canva [icon: canva]
     Github [icon: github]
 }
 
@@ -74,6 +77,9 @@ Github <> Backend : Push
 Trello <> Devs
 Figma <> Devs
 Github <> Devs
+Whatapp <> Devs
+Eraser <> Devs
+Canva <> Devs
 
 // Controller Lambda to NLP Backend
 Controller Lambda > Comprehend Lambda
