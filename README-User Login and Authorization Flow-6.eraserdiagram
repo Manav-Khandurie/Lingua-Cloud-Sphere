@@ -48,4 +48,3 @@ deactivate Packet Server
 // Packet Server processes the request
 Packet Server > User: Return response
 deactivate User
-

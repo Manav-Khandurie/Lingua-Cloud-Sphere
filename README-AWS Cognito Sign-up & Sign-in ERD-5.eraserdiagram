@@ -50,4 +50,3 @@ users.appIntegrationId > app_integrations.id
 app_integrations.userId > users.id
 tokens.userId > users.id
 // s3_buckets.folderId > folders.id
-

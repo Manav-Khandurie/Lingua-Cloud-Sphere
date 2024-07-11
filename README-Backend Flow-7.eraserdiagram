@@ -58,4 +58,3 @@ opt [label: Store in S3, color: lightblue] {
 Controller Lambda > User: Return final response
 deactivate Controller Lambda
 deactivate User
-

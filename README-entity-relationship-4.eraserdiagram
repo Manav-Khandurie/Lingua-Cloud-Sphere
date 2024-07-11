@@ -1,6 +1,5 @@
 entity-relationship-diagram
 
-
 users [icon: user, color: blue] {
   id string pk
   displayName string
@@ -49,4 +48,3 @@ users.cognitoId > cognito_user_pool.poolId
 cognito_user_groups.poolId > cognito_user_pool.poolId
 cognito_app_integrations.poolId > cognito_user_pool.poolId
 s3_folders.bucketId > s3_buckets.bucketId
-
