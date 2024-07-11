@@ -5,7 +5,7 @@ Lingua-Cloud-Sphere is a cloud-based NLP solutions that provide scalable and eff
 
 Edit made from Eraser
 
-![Figure 7](/.eraser/dt7Phvkj2Gc2r9r2b6AR___6Ww8hrtkmQbCnRHKqyf4D7Vv51M2___---figure---tppt-i19sHzNJ1XmNwoUq---figure---7K72H1ytV86AAVKNNIiunA.png "Figure 7")
+![Figure 7](/.eraser/dt7Phvkj2Gc2r9r2b6AR___6Ww8hrtkmQbCnRHKqyf4D7Vv51M2___---figure---oN4apZ9UQmxEq0U5GMiWG---figure---7K72H1ytV86AAVKNNIiunA.png "Figure 7")
 
 
 
@@ -24,7 +24,7 @@ Edit made from Eraser
 # **Sequence Diagram**
 [﻿Figure 5](https://app.eraser.io/workspace/dt7Phvkj2Gc2r9r2b6AR?elements=ArDsPyXB5aF308TZS7MgEQ) 
 
-![Figure 5](/.eraser/dt7Phvkj2Gc2r9r2b6AR___6Ww8hrtkmQbCnRHKqyf4D7Vv51M2___---figure---FzQjilIDwzrNQp3XNVA5V---figure---ArDsPyXB5aF308TZS7MgEQ.png "Figure 5")
+![Figure 5](/.eraser/dt7Phvkj2Gc2r9r2b6AR___6Ww8hrtkmQbCnRHKqyf4D7Vv51M2___---figure---Jf9lI0R8I3QRXi2VqyPXf---figure---ArDsPyXB5aF308TZS7MgEQ.png "Figure 5")
 
 
 
@@ -33,7 +33,7 @@ Edit made from Eraser
 # **Flow Diagram**
 [﻿Figure 6](https://app.eraser.io/workspace/dt7Phvkj2Gc2r9r2b6AR?elements=ArDsPyXB5aF308TZS7MgEQ) 
 
-![Figure 6](/.eraser/dt7Phvkj2Gc2r9r2b6AR___6Ww8hrtkmQbCnRHKqyf4D7Vv51M2___---figure---H8RD_LwltIYTHo3grIg4t---figure---N35TRK9SnrJ9hlmmZhol_w.png "Figure 6")
+![Figure 6](/.eraser/dt7Phvkj2Gc2r9r2b6AR___6Ww8hrtkmQbCnRHKqyf4D7Vv51M2___---figure---eWByv_PM7OWRn8i4Xkt9L---figure---N35TRK9SnrJ9hlmmZhol_w.png "Figure 6")
 
 
 
@@ -56,8 +56,6 @@ Edit made from Eraser
 <a href="/README-Lingua-Cloud-Sphere Architecture-3.eraserdiagram" data-element-id="6MSQtqk73MSMgZk9rjMby"><img src="/.eraser/dt7Phvkj2Gc2r9r2b6AR___6Ww8hrtkmQbCnRHKqyf4D7Vv51M2___---diagram----de4a224315ea5a9eef1dde972dca64f7-Lingua-Cloud-Sphere-Architecture.png" alt="" data-element-id="6MSQtqk73MSMgZk9rjMby" /></a>
 <a href="/README-entity-relationship-4.eraserdiagram" data-element-id="js6oWfovLIo5B8pBa7dkc"><img src="/.eraser/dt7Phvkj2Gc2r9r2b6AR___6Ww8hrtkmQbCnRHKqyf4D7Vv51M2___---diagram----acd39b475bd61f5fddf5de03881ff9ca.png" alt="" data-element-id="js6oWfovLIo5B8pBa7dkc" /></a>
 <a href="/README-AWS Cognito Sign-up & Sign-in ERD-5.eraserdiagram" data-element-id="HKvoCxOdXa0eUMTwXpObD"><img src="/.eraser/dt7Phvkj2Gc2r9r2b6AR___6Ww8hrtkmQbCnRHKqyf4D7Vv51M2___---diagram----100a59d3f4e25c2e5187599a2f3ed294-AWS-Cognito-Sign-up---Sign-in-ERD.png" alt="" data-element-id="HKvoCxOdXa0eUMTwXpObD" /></a>
-<a href="/README-User Login and Authorization Flow-6.eraserdiagram" data-element-id="NnD4H6Hta3fKtN_q375fj"><img src="/.eraser/dt7Phvkj2Gc2r9r2b6AR___6Ww8hrtkmQbCnRHKqyf4D7Vv51M2___---diagram----513f7b2f39706b1745edaaef9e25b887-User-Login-and-Authorization-Flow.png" alt="" data-element-id="NnD4H6Hta3fKtN_q375fj" /></a>
-<a href="/README-Backend Flow-7.eraserdiagram" data-element-id="GZs27akhIAu8kyezszdig"><img src="/.eraser/dt7Phvkj2Gc2r9r2b6AR___6Ww8hrtkmQbCnRHKqyf4D7Vv51M2___---diagram----2ce069c728c6ec9a48b09fa66a054238-Backend-Flow.png" alt="" data-element-id="GZs27akhIAu8kyezszdig" /></a>
 <!-- end-eraser-additional-files -->
 <!-- end-eraser-additional-content -->
 <!--- Eraser file: https://app.eraser.io/workspace/dt7Phvkj2Gc2r9r2b6AR --->
