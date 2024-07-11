@@ -3,7 +3,7 @@ cloud-architecture-diagram
 // Title
 title Lingua-Cloud-Sphere Architecture
 // styleMode watercolor
-// direction right
+direction right
 
 //Development
 Development [color : purple] {
