@@ -8,7 +8,7 @@ Edit made from Eraser
 
 
 #### _**System Design**_
-![Figure 7](/.eraser/dt7Phvkj2Gc2r9r2b6AR___6Ww8hrtkmQbCnRHKqyf4D7Vv51M2___---figure---Qe5xQwTtxFLn1NNuW0a6o---figure---7K72H1ytV86AAVKNNIiunA.png "Figure 7")
+![Figure 7](/.eraser/dt7Phvkj2Gc2r9r2b6AR___6Ww8hrtkmQbCnRHKqyf4D7Vv51M2___---figure---i0gJt2aJxy8dBjKHM5ahI---figure---7K72H1ytV86AAVKNNIiunA.png "Figure 7")
 
 
 
@@ -45,7 +45,12 @@ ALL the Diagrams are present at [﻿LLD-HLD-Document](https://app.eraser.io/work
 
 ALL the Diagrams are present at [﻿LLD-HLD-Document](https://app.eraser.io/workspace/xDlTUArxvInA1UnMiYa8) 
 
+---
 
+# _**Presentation**_
+
+
+[﻿www.canva.com/design/DAGKorfbuz4/zS8CkDYmGJ6M6q3VyB8Y8Q/view?utm_content=DAGKorfbuz4&utm_campaign=designshare&utm_medium=link&utm_source=editor](https://www.canva.com/design/DAGKorfbuz4/zS8CkDYmGJ6M6q3VyB8Y8Q/view?utm_content=DAGKorfbuz4&utm_campaign=designshare&utm_medium=link&utm_source=editor) 
 
 
 <!-- eraser-additional-content -->
