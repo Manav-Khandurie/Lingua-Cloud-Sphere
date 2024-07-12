@@ -5,56 +5,45 @@ Lingua-Cloud-Sphere is a cloud-based NLP solutions that provide scalable and eff
 
 Edit made from Eraser
 
-![Figure 7](/.eraser/dt7Phvkj2Gc2r9r2b6AR___6Ww8hrtkmQbCnRHKqyf4D7Vv51M2___---figure---onuZB4s3nnXzQQrow67iJ---figure---7K72H1ytV86AAVKNNIiunA.png "Figure 7")
+
+
+#### _**System Design**_
+![Figure 7](/.eraser/dt7Phvkj2Gc2r9r2b6AR___6Ww8hrtkmQbCnRHKqyf4D7Vv51M2___---figure---Qe5xQwTtxFLn1NNuW0a6o---figure---7K72H1ytV86AAVKNNIiunA.png "Figure 7")
 
 
 
 ---
 
-# **Synopsis**
+# _**Synopsis**_
 [﻿Synopsis-LinguaCloudSphere](https://app.eraser.io/workspace/KdmznEp53HlvdGcB2N2O) [ Synopsis ]
 
 ---
 
-# **Current Architecture**
+# _**Current Architecture**_
 [﻿View on Eraser](https://app.eraser.io/workspace/dt7Phvkj2Gc2r9r2b6AR?elements=H036hiNq0ZwuHjHuQVoNCw) 
 
 ---
 
-# **Sequence Diagram**
- 
-
-## _**Frontend Auth **__Sequence__** Flow**_
-[﻿LLD-Document](https://app.eraser.io/workspace/xDlTUArxvInA1UnMiYa8) 
+# _**LLD Diagrams**_
 
 
-
-## _**Backend Request Sequence Flow**_
-[﻿LLD-Document](https://app.eraser.io/workspace/xDlTUArxvInA1UnMiYa8) 
-
----
-
-# **Flow Diagram**
- 
+- _**AWS Cognito User-Pools ERD**_
+- _**Blob Storage Data Model**_ 
+- _**Frontend Auth Sequence Diagram**_
+- _**Backend Request Sequence Diagram**_
 
 
+ALL the Diagrams are present at [﻿LLD-HLD-Document](https://app.eraser.io/workspace/xDlTUArxvInA1UnMiYa8) 
 
 ---
 
-# **ERD Diagrams**
+# _**HLD Diagrams**_
+- _**Information Flow Diagram**_
+- _**Process Flow Diagram**_
+- _**System Design**_
 
 
-## _**Cognito User-Pools ERD**_
-[﻿LLD-Document](https://app.eraser.io/workspace/xDlTUArxvInA1UnMiYa8) 
-
-
-
-## _**S3 File Structure Data Model**_
-[﻿LLD-Document](https://app.eraser.io/workspace/xDlTUArxvInA1UnMiYa8) 
-
-
-
----
+ALL the Diagrams are present at [﻿LLD-HLD-Document](https://app.eraser.io/workspace/xDlTUArxvInA1UnMiYa8) 
 
 
 
