@@ -6,36 +6,34 @@
 # _AWS Cognito ERD_
 [﻿Figure 1](https://app.eraser.io/workspace/E8ehepdmSsrw4k4EXlwK?elements=w9qhwnNs9g3ak9FYSEv0_Q) 
 
-![Figure 1](/.eraser/E8ehepdmSsrw4k4EXlwK___6Ww8hrtkmQbCnRHKqyf4D7Vv51M2___---figure---jhmhcmQ8Vbtz6yIu83o5N---figure---w9qhwnNs9g3ak9FYSEv0_Q.png "Figure 1")
+![Figure 1](/.eraser/E8ehepdmSsrw4k4EXlwK___6Ww8hrtkmQbCnRHKqyf4D7Vv51M2___---figure---DNj45-NDZ_l0Q8_DdZoa4---figure----9AJssgbYpEN6lv-jfjcfA.png "Figure 1")
 
 
 
 ---
 
 ## _**Blob Storage Data Model**_
-[﻿Figure 6](https://app.eraser.io/workspace/E8ehepdmSsrw4k4EXlwK?elements=VMZA7ES85k8tynTyDZE-cg) 
+[﻿Figure 6](https://app.eraser.io/workspace/E8ehepdmSsrw4k4EXlwK?elements=NmNWY6DmlJdoesXXnw-V-Q) 
 
-![Figure 6](/.eraser/E8ehepdmSsrw4k4EXlwK___6Ww8hrtkmQbCnRHKqyf4D7Vv51M2___---figure---2RpEpq-oky-YhEac47jk5---figure---VMZA7ES85k8tynTyDZE-cg.png "Figure 6")
+![Figure 6](/.eraser/E8ehepdmSsrw4k4EXlwK___6Ww8hrtkmQbCnRHKqyf4D7Vv51M2___---figure---B-ccDLpu-Yw7iVBQzRkJb---figure---NmNWY6DmlJdoesXXnw-V-Q.png "Figure 6")
 
 
 
 ---
 
 ## _**Frontend Auth Sequence Diagram**_
-[﻿Figure 2](https://app.eraser.io/workspace/E8ehepdmSsrw4k4EXlwK?elements=HDINyakDM-GTUdlFoAdkLQ) 
+[﻿Figure 2](https://app.eraser.io/workspace/E8ehepdmSsrw4k4EXlwK?elements=D1NWT1Z2AMqZ6_tD2Dm6JQ) 
 
-![Figure 2](/.eraser/E8ehepdmSsrw4k4EXlwK___6Ww8hrtkmQbCnRHKqyf4D7Vv51M2___---figure---ekUA1BrbQJssbfjf_fSAD---figure---HDINyakDM-GTUdlFoAdkLQ.png "Figure 2")
+![Figure 2](/.eraser/E8ehepdmSsrw4k4EXlwK___6Ww8hrtkmQbCnRHKqyf4D7Vv51M2___---figure---r4CAjPnUPyJyeSgR7qEtJ---figure---D1NWT1Z2AMqZ6_tD2Dm6JQ.png "Figure 2")
 
 
 
 ---
 
 ## _**Backend Request Sequence Diagram**_
-[﻿Figure 3](https://app.eraser.io/workspace/E8ehepdmSsrw4k4EXlwK?elements=3qvYLskCzPqc6w92KJ7E7g) 
+[﻿Figure 3](https://app.eraser.io/workspace/E8ehepdmSsrw4k4EXlwK?elements=hn4xpGAc7UnUXpNer155tg) 
 
-![Figure 3](/.eraser/E8ehepdmSsrw4k4EXlwK___6Ww8hrtkmQbCnRHKqyf4D7Vv51M2___---figure---gSZOfCbkfMA3Z2afoYXec---figure---3qvYLskCzPqc6w92KJ7E7g.png "Figure 3")
-
----
+![Figure 3](/.eraser/E8ehepdmSsrw4k4EXlwK___6Ww8hrtkmQbCnRHKqyf4D7Vv51M2___---figure---iSBWPju7fu2c5NbVr7rlg---figure---hn4xpGAc7UnUXpNer155tg.png "Figure 3")
 
 
 
