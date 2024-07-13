@@ -8,7 +8,7 @@ Edit made from Eraser
 
 
 #### _**System Design**_
-![Figure 7](/.eraser/dt7Phvkj2Gc2r9r2b6AR___6Ww8hrtkmQbCnRHKqyf4D7Vv51M2___---figure---Ri3guDKEQAZrfSeMAKDds---figure---7K72H1ytV86AAVKNNIiunA.png "Figure 7")
+![Figure 7](/.eraser/dt7Phvkj2Gc2r9r2b6AR___6Ww8hrtkmQbCnRHKqyf4D7Vv51M2___---figure---A5gFPxNd2itrls97ktPbw---figure---7K72H1ytV86AAVKNNIiunA.png "Figure 7")
 
 
 
