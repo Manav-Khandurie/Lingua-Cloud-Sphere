@@ -6,7 +6,7 @@
 # _AWS Cognito ERD_
 [﻿Figure 1](https://app.eraser.io/workspace/E8ehepdmSsrw4k4EXlwK?elements=w9qhwnNs9g3ak9FYSEv0_Q) 
 
-![Figure 1](/.eraser/E8ehepdmSsrw4k4EXlwK___6Ww8hrtkmQbCnRHKqyf4D7Vv51M2___---figure---3dkguvnAgX8V4px8LrfPs---figure----9AJssgbYpEN6lv-jfjcfA.png "Figure 1")
+![Figure 1](/.eraser/E8ehepdmSsrw4k4EXlwK___6Ww8hrtkmQbCnRHKqyf4D7Vv51M2___---figure---JM-nVMXCaMTd99oS-bGDL---figure----9AJssgbYpEN6lv-jfjcfA.png "Figure 1")
 
 
 
@@ -15,7 +15,7 @@
 ## _**Blob Storage Data Model**_
 [﻿Figure 6](https://app.eraser.io/workspace/E8ehepdmSsrw4k4EXlwK?elements=NmNWY6DmlJdoesXXnw-V-Q) 
 
-![Figure 6](/.eraser/E8ehepdmSsrw4k4EXlwK___6Ww8hrtkmQbCnRHKqyf4D7Vv51M2___---figure---dbfukUeUIvp09po6rbvUH---figure---NmNWY6DmlJdoesXXnw-V-Q.png "Figure 6")
+![Figure 6](undefined "Figure 6")
 
 
 
@@ -24,7 +24,7 @@
 ## _**Frontend Auth Sequence Diagram**_
 [﻿Figure 2](https://app.eraser.io/workspace/E8ehepdmSsrw4k4EXlwK?elements=D1NWT1Z2AMqZ6_tD2Dm6JQ) 
 
-![Figure 2](/.eraser/E8ehepdmSsrw4k4EXlwK___6Ww8hrtkmQbCnRHKqyf4D7Vv51M2___---figure---pYLNHvks9DjHGIi1_M0uJ---figure---D1NWT1Z2AMqZ6_tD2Dm6JQ.png "Figure 2")
+![Figure 2](/.eraser/E8ehepdmSsrw4k4EXlwK___6Ww8hrtkmQbCnRHKqyf4D7Vv51M2___---figure---7mzIIIYebQVci5-3IJHRo---figure---D1NWT1Z2AMqZ6_tD2Dm6JQ.png "Figure 2")
 
 
 
@@ -33,7 +33,7 @@
 ## _**Backend Request Sequence Diagram**_
 [﻿Figure 3](https://app.eraser.io/workspace/E8ehepdmSsrw4k4EXlwK?elements=hn4xpGAc7UnUXpNer155tg) 
 
-![Figure 3](/.eraser/E8ehepdmSsrw4k4EXlwK___6Ww8hrtkmQbCnRHKqyf4D7Vv51M2___---figure---fIiDi3Gy9nQoMaNL6TMpA---figure---hn4xpGAc7UnUXpNer155tg.png "Figure 3")
+![Figure 3](/.eraser/E8ehepdmSsrw4k4EXlwK___6Ww8hrtkmQbCnRHKqyf4D7Vv51M2___---figure---Gmkrd_Q1SmpB586j3xcs9---figure---hn4xpGAc7UnUXpNer155tg.png "Figure 3")
 
 
 
