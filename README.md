@@ -8,9 +8,16 @@ Edit made from Eraser
 
 
 #### _**System Design**_
-![Figure 7](/.eraser/dt7Phvkj2Gc2r9r2b6AR___6Ww8hrtkmQbCnRHKqyf4D7Vv51M2___---figure---EnSZ1TmQi8Rz0cOKXvINU---figure---7K72H1ytV86AAVKNNIiunA.png "Figure 7")
+![Figure 7](/.eraser/dt7Phvkj2Gc2r9r2b6AR___6Ww8hrtkmQbCnRHKqyf4D7Vv51M2___---figure---RNPNBrAymMCAz7-sCcaOx---figure---7K72H1ytV86AAVKNNIiunA.png "Figure 7")
 
 
+
+---
+
+# _**Application Flow**_
+[﻿HLD](https://app.eraser.io/workspace/ThHWjrXq9R6q7nOsJRXl) 
+
+![Figure 2](/.eraser/dt7Phvkj2Gc2r9r2b6AR___6Ww8hrtkmQbCnRHKqyf4D7Vv51M2___---figure---QsClHKUwddsIM3C7yoOJe---figure---AO0uBg7OrLjEm1-CdVTbrA.png "Figure 2")
 
 ---
 
@@ -27,10 +34,10 @@ Edit made from Eraser
 # _**LLD Diagrams**_
 
 
-- _**AWS Cognito User-Pools ERD**_
-- _**Blob Storage Data Model**_ 
-- _**Frontend Auth Sequence Diagram**_
-- _**Backend Request Sequence Diagram**_
+- _**AWS Cognito User-Pools ERD   **_[﻿LLD](https://app.eraser.io/workspace/E8ehepdmSsrw4k4EXlwK) 
+- _**Blob Storage Data Model**_  [﻿LLD](https://app.eraser.io/workspace/E8ehepdmSsrw4k4EXlwK) 
+- _**Frontend Auth Sequence Diagram  **_[﻿LLD](https://app.eraser.io/workspace/E8ehepdmSsrw4k4EXlwK)_**+**_ 
+- _**Backend Request Sequence Diagram **_[﻿LLD](https://app.eraser.io/workspace/E8ehepdmSsrw4k4EXlwK) 
 
 
 ALL the Diagrams are present at [﻿LLD-HLD-Document](https://app.eraser.io/workspace/xDlTUArxvInA1UnMiYa8) 
@@ -38,9 +45,9 @@ ALL the Diagrams are present at [﻿LLD-HLD-Document](https://app.eraser.io/work
 ---
 
 # _**HLD Diagrams**_
-- _**Information Flow Diagram**_
-- _**Process Flow Diagram**_
-- _**System Design**_
+- _**Information Flow Diagram **_[﻿HLD](https://app.eraser.io/workspace/ThHWjrXq9R6q7nOsJRXl) 
+- _**Process Flow Diagram **_[﻿HLD](https://app.eraser.io/workspace/ThHWjrXq9R6q7nOsJRXl) 
+- _**System Design **_[﻿HLD](https://app.eraser.io/workspace/ThHWjrXq9R6q7nOsJRXl)_**+**_ 
 
 
 ALL the Diagrams are present at [﻿LLD-HLD-Document](https://app.eraser.io/workspace/xDlTUArxvInA1UnMiYa8) 
