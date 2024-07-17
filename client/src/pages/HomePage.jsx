@@ -1,4 +1,5 @@
 import ServiceCard from "../components/ServiceCard";
+import { LoadingBouncyComponent } from "../components/LoadingComponent";
 
 const services = [
   { title: "Translation" },
@@ -13,6 +14,7 @@ const HomePage = () => (
   <div className="home-page">
     <div className="hero">
       <h1>LCS.</h1>
+      <LoadingBouncyComponent />
     </div>
     <div className="services">
       {services.map((service) => (
