@@ -27,7 +27,7 @@ const steps = [
   { title: "Result", description: "View the Conversion result" },
 ];
 
-const TTSPage = () => {
+const TestingBackendPage = () => {
   const { audio, loading, error, speech, setAudio } = useTts(); // Use the useTts hook
   const [textToTranslate, setTextToTranslate] = useState("");
   const [toLanguage, setToLanguage] = useState(""); // Use this to select the voice agent
@@ -77,7 +77,7 @@ const TTSPage = () => {
       justifyContent="center"
     >
       <Heading as="h1" size="xl" mb={6} color="white">
-        TTS Page
+        TTS Test Page
       </Heading>
       <Box
         p={6}
@@ -214,4 +214,4 @@ const TTSPage = () => {
   );
 };
 
-export default TTSPage;
+export default TestingBackendPage;

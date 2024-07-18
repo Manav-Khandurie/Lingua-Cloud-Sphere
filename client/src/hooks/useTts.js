@@ -17,7 +17,7 @@ const useTts = () => {
     }
   };
 
-  return { audio, loading, error, speech };
+  return { audio, loading, error, speech, setAudio };
 };
 
 export default useTts;
