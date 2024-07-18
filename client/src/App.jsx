@@ -27,7 +27,7 @@ function App() {
         <Route path="/sst" element={<SSTPage />} />
         <Route path="/tts" element={<TTSPage />} />
         <Route path="/texttract" element={<TexttractPage />} />
-        <Route path="/translate" element={<TranslatePage />} />
+        <Route path="/Translation" element={<TranslatePage />} />
         <Route path="/404" element={<Error404Page />} />
         <Route path="/*" element={<Error404Page />} />
       </Routes>
