@@ -19,7 +19,10 @@ const Header = () => (
         <NavLinkButton to="/" text="Home" />
         <NavLinkButton to="/about" text="About" />
         <NavLinkButton to="/contact" text="Contact" />
-        <NavLinkButton to="/api" text="API" />
+        <NavLinkButton
+          to="https://documenter.getpostman.com/view/26811368/2sA3e5d86L#1b122ed4-59d4-412d-bafe-28e4931bdb72"
+          text="API"
+        />
       </Flex>
 
       {/* Buttons */}

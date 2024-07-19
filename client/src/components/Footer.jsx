@@ -12,13 +12,13 @@ const Footer = () => (
         mb={{ base: 4, md: 0 }}
         alignItems="center"
       >
-        <Link href="#" mx={2} color="teal.300">
+        <Link href="about" mx={2} color="teal.300">
           Privacy Policy
         </Link>
-        <Link href="#" mx={2} color="teal.300">
+        <Link href="about" mx={2} color="teal.300">
           Terms of Service
         </Link>
-        <Link href="#" mx={2} color="teal.300">
+        <Link href="about" mx={2} color="teal.300">
           Copyright
         </Link>
       </Flex>

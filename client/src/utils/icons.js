@@ -5,7 +5,7 @@ import {
   cilMic,
   cilCameraControl,
   cilShortText,
-  cilMagnifyingGlass,
+  cilVector,
 } from "@coreui/icons";
 
 const icons = {
@@ -14,7 +14,7 @@ const icons = {
   TTS: cilMic /* TTS */,
   Rekognition: cilCameraControl /* Rekognition */,
   Textract: cilShortText /* TextTract */,
-  OCR: cilMagnifyingGlass /* OCR */,
+  Comphrend: cilVector /* Comphrend */,
 };
 
 export default icons;

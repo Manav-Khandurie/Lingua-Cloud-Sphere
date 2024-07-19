@@ -15,6 +15,7 @@ import TTSPage from "./pages/TTSPage";
 import TexttractPage from "./pages/TexttractPage";
 import TranslatePage from "./pages/TranslatePage";
 import TestingBackendPage from "./pages/TestingBackendPage";
+import ContactPage from "./pages/ContactPage";
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
         <Route path="/Translation" element={<TranslatePage />} />
         <Route path="/404" element={<Error404Page />} />
         <Route path="/Test" element={<TestingBackendPage />} />
+        <Route path="/contact" element={<ContactPage />} />
         <Route path="/*" element={<Error404Page />} />
       </Routes>
       <Footer />

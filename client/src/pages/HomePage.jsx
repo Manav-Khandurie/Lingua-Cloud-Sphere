@@ -12,7 +12,7 @@ const services = [
   { title: "TTS" },
   { title: "Rekognition" },
   { title: "Textract" },
-  { title: "OCR" },
+  { title: "Comphrend" },
 ];
 
 const MotionBox = motion(Box);

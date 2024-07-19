@@ -14,7 +14,7 @@ const AnimatedHeading = () => (
   >
     <Text
       mt={4}
-      fontSize="lg"
+      fontSize="4xl"
       fontWeight="bold"
       fontFamily="'Press Start 2P', cursive"
     >
