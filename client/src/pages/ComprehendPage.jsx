@@ -29,7 +29,7 @@ const steps = [
   { title: "Result", description: "View the analysis result" },
 ];
 
-const TestingBackendPage = () => {
+const ComprehendPage = () => {
   const { result, loading, error, comprehend } = useComprehend(); // Use the useComprehend hook
   const [text, setText] = useState("");
   const [operation, setOperation] = useState("");
@@ -256,4 +256,4 @@ const TestingBackendPage = () => {
   );
 };
 
-export default TestingBackendPage;
+export default ComprehendPage;

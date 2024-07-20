@@ -1,23 +1,41 @@
 import { useState } from "react";
-import { translateText } from "../api/nlpApi";
+import apiClient from "../api/apiClient";
 
-const useTranslate = () => {
-  const [translation, setTranslation] = useState("");
+const useComprehend = () => {
+  const [result, setResult] = useState(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
-  const translate = async (text, toLanguage) => {
-    setLoading(true);
+
+  const comprehend = async (text, operation) => {
     try {
-      const translatedText = await translateText(text, toLanguage);
-      setTranslation(translatedText);
+      setLoading(true);
+      setError(null);
+      const body = {
+        Provider: "AWS",
+        Service: "Comprehend",
+        text: text,
+        operation,
+      };
+      const response = await apiClient.post("", body);
+
+      if (operation === "sentiment") {
+        setResult(response?.data?.response?.response);
+      } else if (operation === "entities") {
+        setResult(response?.data?.response?.response?.Entities);
+      } else if (operation === "language") {
+        setResult(response?.data?.response?.response?.Languages);
+      } else {
+        setResult(response.data.response.file_url);
+      }
     } catch (error) {
+      console.error("Error processing text:", error);
       setError(error);
     } finally {
       setLoading(false);
     }
   };
 
-  return { translation, loading, error, translate };
+  return { result, loading, error, comprehend };
 };
 
-export default useTranslate;
+export default useComprehend;

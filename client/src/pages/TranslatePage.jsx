@@ -23,6 +23,7 @@ import { CopyIcon } from "@chakra-ui/icons";
 import useTranslate from "../hooks/useTranslate"; // Import the useTranslate hook
 import { useState } from "react";
 import { LoadingBouncyComponent } from "../components/LoadingComponent";
+import "@fontsource/press-start-2p";
 
 const steps = [
   { title: "Your Text", description: "Enter text to translate" },
@@ -56,13 +57,19 @@ const TranslatePage = () => {
     <Box
       p={8}
       bg="gray.800"
-      minH="100vh"
+      minH="70vh"
       display="flex"
       flexDirection="column"
       alignItems="center"
       justifyContent="center"
     >
-      <Heading as="h1" size="xl" mb={6} color="white">
+      <Heading
+        as="h1"
+        size="xl"
+        mb={6}
+        color="white"
+        fontFamily={"'Press Start 2P', cursive"}
+      >
         Translate Page
       </Heading>
       <Box

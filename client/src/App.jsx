@@ -8,7 +8,7 @@ import Footer from "./components/Footer";
 //Pages Import
 import HomePage from "./pages/HomePage";
 import Error404Page from "./pages/Error404Page";
-import OCRPage from "./pages/OCRPage";
+import ComprehendPage from "./pages/ComprehendPage";
 import RekognitionPage from "./pages/RekognitionPage";
 import SSTPage from "./pages/SSTPage";
 import TTSPage from "./pages/TTSPage";
@@ -24,7 +24,7 @@ function App() {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/home" element={<HomePage />} />
-        <Route path="/ocr" element={<OCRPage />} />
+        <Route path="/comphrend" element={<ComprehendPage />} />
         <Route path="/rekognition" element={<RekognitionPage />} />
         <Route path="/sst" element={<SSTPage />} />
         <Route path="/tts" element={<TTSPage />} />

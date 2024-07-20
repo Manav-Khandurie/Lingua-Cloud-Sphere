@@ -70,14 +70,20 @@ const TTSPage = () => {
     <Box
       p={8}
       bg="gray.800"
-      minH="100vh"
+      minH="70vh"
       display="flex"
       flexDirection="column"
       alignItems="center"
       justifyContent="center"
     >
-      <Heading as="h1" size="xl" mb={6} color="white">
-        TTS Page
+      <Heading
+        as="h1"
+        size="xl"
+        mb={6}
+        color="white"
+        fontFamily={"'Press Start 2P', cursive"}
+      >
+        Text 💬 to Speech 🔊
       </Heading>
       <Box
         p={6}
