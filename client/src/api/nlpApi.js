@@ -54,4 +54,46 @@ const comprehrend = async (text, operation) => {
   }
 };
 
-export { translateText, textToSpeech, comprehrend };
+const textract = async (text, operation, document_name, document_type) => {
+  try {
+    const body = {
+      Provider: "AWS",
+      Service: "Textract",
+      document_name: document_name,
+      document_type: document_type,
+      operation,
+    };
+    const response = await apiClient.post("", body);
+
+    if (operation === "handwriting") return response?.data?.response?.Blocks;
+    else return response.data.response; // Ensure this matches the API response structure
+  } catch (error) {
+    console.error("Error performing ocr textract:", error);
+    throw error;
+  }
+};
+
+const rekognition = async (operation, image_name) => {
+  try {
+    const body = {
+      Provider: "AWS",
+      Service: "Rekognition",
+      image_name: image_name,
+      operation,
+    };
+    const response = await apiClient.post("", body);
+    console.log("rekognition response", response);
+    if (operation === "facial_analysis")
+      return response?.data?.response?.response?.FaceDetails;
+    else if (operation === "text_detection")
+      return response?.data?.response?.TextDetections;
+    else if (operation === "object_detection")
+      return response?.data?.response?.Labels;
+    else return response?.data?.response?.CelebrityFaces; // celebrity
+  } catch (error) {
+    console.error("Error performing rekognition:", error);
+    throw error;
+  }
+};
+
+export { translateText, textToSpeech, comprehrend, textract, rekognition };

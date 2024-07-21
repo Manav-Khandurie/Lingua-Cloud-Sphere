@@ -20,7 +20,7 @@ const useSst = () => {
     console.log("file", file);
     try {
       // Step 1: Upload the file using useFileUpload hook
-      const uniqueFileName = await uploadFile(file);
+      const uniqueFileName = await uploadFile(file, "SSTUploads");
       if (!uniqueFileName) {
         throw new Error("File upload failed");
       }

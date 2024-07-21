@@ -8,7 +8,7 @@ const useFileUpload = () => {
   const [error, setError] = useState(null);
   const [success, setSuccess] = useState(false);
 
-  const uploadFile = async (file) => {
+  const uploadFile = async (file, folder_name) => {
     setUploading(true);
     setError(null);
     setSuccess(false);
@@ -21,6 +21,7 @@ const useFileUpload = () => {
       const payload = {
         file_name: uniqueFileName,
         content_type: file.type,
+        folder_name: folder_name,
       };
       const response = await apiClient.post("/upload", payload);
       const { url: presignedUrl } = response.data;
