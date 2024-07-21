@@ -82,14 +82,15 @@ const rekognition = async (operation, image_name) => {
       operation,
     };
     const response = await apiClient.post("", body);
-    console.log("rekognition response", response);
+    console.log(
+      "rekognition response",
+      response.data.response.response.CelebrityFaces
+    );
     if (operation === "facial_analysis")
       return response?.data?.response?.response?.FaceDetails;
-    else if (operation === "text_detection")
-      return response?.data?.response?.TextDetections;
     else if (operation === "object_detection")
-      return response?.data?.response?.Labels;
-    else return response?.data?.response?.CelebrityFaces; // celebrity
+      return response?.data?.response?.response?.Labels;
+    else return response?.data?.response?.response.CelebrityFaces; // celebrity
   } catch (error) {
     console.error("Error performing rekognition:", error);
     throw error;

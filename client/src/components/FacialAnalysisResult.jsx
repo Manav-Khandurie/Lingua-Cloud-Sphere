@@ -115,4 +115,4 @@ const FacialAnalysisResult = ({ image, result }) => {
   );
 };
 
-export default FacialAnalysisResult;
+export { FacialAnalysisResult };

@@ -16,12 +16,13 @@ import {
   Stepper,
   useSteps,
   Select,
-  useBreakpointValue,
 } from "@chakra-ui/react";
 import { useState } from "react";
 import useRecognition from "../hooks/useRekognition";
 import { LoadingBouncyComponent } from "../components/LoadingComponent";
-import FacialAnalysisResult from "../components/FacialAnalysisResult";
+import { FacialAnalysisResult } from "../components/FacialAnalysisResult";
+import { ObjectDetectionResult } from "../components/ObjectDetectionResult";
+import { CelebrityFacesResult } from "../components/CelebrityFacialAnalysisResult";
 import { useDropzone } from "react-dropzone";
 
 const steps = [
@@ -94,7 +95,7 @@ const RecognitionPage = () => {
         color="white"
         fontFamily={"'Press Start 2P', cursive"}
       >
-        Image Recognition
+        Image Rekognition 📸
       </Heading>
       <Box
         p={6}
@@ -152,12 +153,22 @@ const RecognitionPage = () => {
             >
               <option value="facial_analysis">Facial Analysis</option>
               <option value="object_detection">Object Detection</option>
-              <option value="celebrity_detection">Celebrity Detection</option>
+              <option value="celebrity_recognition">
+                Celebrity Recognition
+              </option>
             </Select>
           )}
           {activeStep === 2 && result && operation === "facial_analysis" && (
             <FacialAnalysisResult image={imageFile} result={result} />
           )}
+          {activeStep === 2 && result && operation === "object_detection" && (
+            <ObjectDetectionResult image={imageFile} result={result} />
+          )}
+          {activeStep === 2 &&
+            result &&
+            operation === "celebrity_recognition" && (
+              <CelebrityFacesResult image={imageFile} celebrityFaces={result} />
+            )}
           {error && (
             <Text mt={4} color="red.500">
               Error: {error}
