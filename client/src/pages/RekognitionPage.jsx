@@ -2,7 +2,6 @@ import {
   Box,
   Flex,
   Heading,
-  Input,
   Button,
   Text,
   Progress,
@@ -17,11 +16,13 @@ import {
   Stepper,
   useSteps,
   Select,
+  useBreakpointValue,
 } from "@chakra-ui/react";
 import { useState } from "react";
 import useRecognition from "../hooks/useRekognition";
 import { LoadingBouncyComponent } from "../components/LoadingComponent";
 import FacialAnalysisResult from "../components/FacialAnalysisResult";
+import { useDropzone } from "react-dropzone";
 
 const steps = [
   { title: "Upload Image", description: "Upload an image file" },
@@ -36,9 +37,7 @@ const RecognitionPage = () => {
   const { activeStep, setActiveStep } = useSteps({ initialStep: 0 });
 
   const handleNextStep = async () => {
-    if (activeStep === 0 && imageFile) {
-      setActiveStep(1);
-    } else if (activeStep === 1 && operation) {
+    if (activeStep === 1 && operation) {
       await recognize(imageFile, operation);
       setActiveStep(2);
     } else if (activeStep === 2) {
@@ -66,6 +65,17 @@ const RecognitionPage = () => {
     }
     return "Next";
   };
+
+  // Dropzone configuration
+  const { getRootProps, getInputProps, isDragActive } = useDropzone({
+    accept: "image/*",
+    onDrop: (acceptedFiles) => {
+      setImageFile(acceptedFiles[0]);
+      if (activeStep === 0) {
+        setActiveStep(1); // Automatically go to step 1 after uploading
+      }
+    },
+  });
 
   return (
     <Box
@@ -117,17 +127,28 @@ const RecognitionPage = () => {
         </Stepper>
         <Flex direction="column">
           {activeStep === 0 && (
-            <Input
-              type="file"
-              accept="image/*"
-              mb={4}
-              onChange={(e) => setImageFile(e.target.files[0])}
-            />
+            <Box
+              p={4}
+              border="2px dashed"
+              borderColor={isDragActive ? "teal.500" : "gray.300"}
+              borderRadius="md"
+              {...getRootProps()}
+              cursor="pointer"
+              textAlign="center"
+            >
+              <input {...getInputProps()} />
+              <Text color="gray.500">
+                {isDragActive
+                  ? "Drop the image here..."
+                  : "Drag 'n' drop an image here, or click to select one"}
+              </Text>
+            </Box>
           )}
           {activeStep === 1 && (
             <Select
               placeholder="Select operation"
               onChange={(e) => setOperation(e.target.value)}
+              value={operation}
             >
               <option value="facial_analysis">Facial Analysis</option>
               <option value="object_detection">Object Detection</option>
@@ -145,7 +166,7 @@ const RecognitionPage = () => {
           {uploading && activeStep === 1 && (
             <Progress size="xs" isIndeterminate mb={4} />
           )}
-          <Flex justifyContent="space-between">
+          <Flex justifyContent="space-between" mt={4}>
             <Button
               onClick={handleBackStep}
               isDisabled={activeStep === 0 || loading}

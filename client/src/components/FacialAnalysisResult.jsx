@@ -4,6 +4,7 @@ import { useState } from "react";
 const FacialAnalysisResult = ({ image, result }) => {
   const [hoverInfo, setHoverInfo] = useState(null);
   const [hoverPos, setHoverPos] = useState({ x: 0, y: 0 });
+  const [hoveredBoundingBoxIndex, setHoveredBoundingBoxIndex] = useState(null);
 
   const handleMouseEnter = (landmark, event) => {
     const { pageX, pageY } = event;
@@ -13,6 +14,14 @@ const FacialAnalysisResult = ({ image, result }) => {
 
   const handleMouseLeave = () => {
     setHoverInfo(null);
+  };
+
+  const handleBoundingBoxMouseEnter = (index) => {
+    setHoveredBoundingBoxIndex(index);
+  };
+
+  const handleBoundingBoxMouseLeave = () => {
+    setHoveredBoundingBoxIndex(null);
   };
 
   return (
@@ -37,6 +46,7 @@ const FacialAnalysisResult = ({ image, result }) => {
         />
         {result.map((face, index) => {
           const { Width, Height, Left, Top } = face.BoundingBox;
+          const isHovered = hoveredBoundingBoxIndex === index;
           return (
             <Box
               key={index}
@@ -48,24 +58,27 @@ const FacialAnalysisResult = ({ image, result }) => {
                 left: `${Left * 100}%`,
                 top: `${Top * 100}%`,
               }}
+              onMouseEnter={() => handleBoundingBoxMouseEnter(index)}
+              onMouseLeave={handleBoundingBoxMouseLeave}
             >
-              {face.Landmarks.map((landmark, i) => (
-                <Box
-                  key={i}
-                  position="absolute"
-                  bg="blue"
-                  borderRadius="50%"
-                  width="6px"
-                  height="6px"
-                  transform="translate(-50%, -50%)"
-                  style={{
-                    left: `${landmark.X * 100}%`,
-                    top: `${landmark.Y * 100}%`,
-                  }}
-                  onMouseEnter={(e) => handleMouseEnter(landmark, e)}
-                  onMouseLeave={handleMouseLeave}
-                ></Box>
-              ))}
+              {isHovered &&
+                face.Landmarks.map((landmark, i) => (
+                  <Box
+                    key={i}
+                    position="absolute"
+                    bg="blue"
+                    borderRadius="50%"
+                    width="6px"
+                    height="6px"
+                    transform="translate(-50%, -50%)"
+                    style={{
+                      left: `${((landmark.X - Left) * 100) / Width}%`,
+                      top: `${((landmark.Y - Top) * 100) / Height}%`,
+                    }}
+                    onMouseEnter={(e) => handleMouseEnter(landmark, e)}
+                    onMouseLeave={handleMouseLeave}
+                  ></Box>
+                ))}
             </Box>
           );
         })}
