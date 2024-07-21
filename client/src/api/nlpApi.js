@@ -65,7 +65,7 @@ const textract = async (text, operation, document_name, document_type) => {
     };
     const response = await apiClient.post("", body);
 
-    if (operation === "handwriting") return response?.data?.response?.Blocks;
+    if (operation === "handwriting") return response?.data?.response?.Status;
     else return response.data.response; // Ensure this matches the API response structure
   } catch (error) {
     console.error("Error performing ocr textract:", error);

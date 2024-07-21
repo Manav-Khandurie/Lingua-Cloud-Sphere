@@ -11,7 +11,7 @@ const ContactPage = () => {
           color={"white"}
           fontSize={"4xl"}
           textAlign={"center"}
-          fontFamily={"'Press Start 2P', cursive"}
+          fontFamily={"'Press Start 2P', 'cursive'"}
         >
           Meet the Developers
         </Heading>
